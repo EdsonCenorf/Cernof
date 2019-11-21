@@ -1,0 +1,54 @@
+.form-control {
+    height: 54px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-group {
+    .input-group-prepend {
+        .input-group-text {
+            height: 26px;
+            background: #192237;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border: none;
+            padding: .375rem 0 .375rem .5rem;
+            .uil {
+                font-size: 16px;
+            }
+        }
+    }
+    .form-control {
+        &:not(:first-child) {
+            height: 26px;
+            background: #192237;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            color: #fff;
+            font-size: 13px;
+            padding-top: .25rem;
+            box-shadow: none;
+            @include placeholder {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.has-error {
+    .help-block {
+        color: #a94442;
+    }
+}
+
+.custom-checkbox {
+    .custom-control-label {
+        &::before {
+            border-radius: 3px;
+        }
+    }
+    .custom-control-input:checked~.custom-control-label::before {
+        border-color: #122541;
+        background-color: #122541;
+    }
+}

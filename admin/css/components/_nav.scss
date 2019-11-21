@@ -1,0 +1,16 @@
+.navbar {
+    height: 50px;
+    border-radius: 6px;
+    ul {
+        li {
+            .nav-link {
+                color: white;
+            }
+            .active {
+              background: white;
+              color: blue;
+              height: 50px;
+             }
+        }
+    }
+}

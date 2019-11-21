@@ -1,0 +1,26 @@
+.color-primary {
+    color: #192237;
+    &:hover,
+    &:active,
+    &:focus {
+        color: #192237;
+    }
+}
+
+.color-danger {
+    color: #d55959;
+    &:hover,
+    &:active,
+    &:focus {
+        color: #d55959;
+    }
+}
+
+.color-success {
+    color: #139D33;
+    &:hover,
+    &:active,
+    &:focus {
+        color: #139D33;
+    }
+}
